@@ -12,7 +12,7 @@ function WorkoutApp() {
     reps: "",
     sets: "",
     weight: "",
-    group: "",
+    group: "Chest",
   }
   const [input, setInput] = useState(clear);
 
@@ -34,7 +34,6 @@ function WorkoutApp() {
     event.preventDefault();
     let method;
     const data = input;
-    if (data.group === "") data.group = "Chest";
     if (!data.id) {
       method = "POST";
       fetchData(

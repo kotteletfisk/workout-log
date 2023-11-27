@@ -29,28 +29,28 @@ function WorkoutList({ workouts, handleDelete, handleEdit }) {
               <td>
                 <ul>
                   {groupedWorkouts[group].map((workout) => (
-                    <li key={crypto.randomUUID()}>{workout.exercise}</li>
+                    <li key={workout.id}>{workout.exercise}</li>
                   ))}
                 </ul>
               </td>
               <td>
                 <ul>
                   {groupedWorkouts[group].map((workout) => (
-                    <li key={crypto.randomUUID()}>{workout.reps}</li>
+                    <li key={workout.id}>{workout.reps}</li>
                   ))}
                 </ul>
               </td>
               <td>
                 <ul>
                   {groupedWorkouts[group].map((workout) => (
-                    <li key={crypto.randomUUID()}>{workout.sets}</li>
+                    <li key={workout.id}>{workout.sets}</li>
                   ))}
                 </ul>
               </td>
               <td>
                 <ul>
                   {groupedWorkouts[group].map((workout) => (
-                    <li key={crypto.randomUUID()}>{workout.weight}</li>
+                    <li key={workout.id}>{workout.weight}</li>
                   ))}
                 </ul>
               </td>
@@ -58,7 +58,7 @@ function WorkoutList({ workouts, handleDelete, handleEdit }) {
                 <div className="container">
                   <ul className="action">
                     {groupedWorkouts[group].map((workout) => (
-                      <li key={crypto.randomUUID()}>
+                      <li key={workout.id}>
                         <button onClick={() => handleEdit(workout)}>
                           Edit
                         </button>

@@ -47,6 +47,14 @@
       "sets": "12",
       "weight": "12",
       "group": "Chest"
+    },
+    {
+      "id": 11,
+      "exercise": "goddaw",
+      "reps": "1",
+      "sets": "2",
+      "weight": "4",
+      "group": "Chest"
     }
   ]
 }

@@ -56,7 +56,7 @@ function WorkoutForm({ handleSubmit, handleInput, handleCancel, input }) {
           <label htmlFor="group">
             Musclegroup
             <select name="musclegroup" id="group" onChange={handleInput} value={input.group}>
-              <option selected value="Chest">Chest</option>
+              <option defaultChecked value="Chest">Chest</option>
               <option value="Back">Back</option>
               <option value="Legs">Legs</option>
               <option value="Shoulders">Shoulders</option>
