@@ -1,0 +1,44 @@
+{
+  "api": [
+    {
+      "id": 1,
+      "exercise": "pushups",
+      "reps": "10",
+      "sets": "3",
+      "weight": "0",
+      "group": "Chest"
+    },
+    {
+      "id": 2,
+      "exercise": "pullups",
+      "reps": "10",
+      "sets": "3",
+      "weight": "0",
+      "group": "Back"
+    },
+    {
+      "id": 3,
+      "exercise": "squats",
+      "reps": "10",
+      "sets": "3",
+      "weight": "0",
+      "group": "Legs"
+    },
+    {
+      "id": 4,
+      "exercise": "benchpress",
+      "reps": "10",
+      "sets": "3",
+      "weight": "50",
+      "group": "Chest"
+    },
+    {
+      "id": 5,
+      "exercise": "deadlift",
+      "reps": "10",
+      "sets": "3",
+      "weight": "60",
+      "group": "Back"
+    }
+  ]
+}

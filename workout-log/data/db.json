@@ -1,0 +1,52 @@
+{
+  "api": [
+    {
+      "id": 1,
+      "exercise": "pushups",
+      "reps": "10",
+      "sets": "3",
+      "weight": "0",
+      "group": "Chest"
+    },
+    {
+      "id": 3,
+      "exercise": "Bar squats",
+      "reps": "12",
+      "sets": "3",
+      "weight": "60",
+      "group": "Legs"
+    },
+    {
+      "id": 5,
+      "exercise": "deadlift",
+      "reps": "10",
+      "sets": "3",
+      "weight": "60",
+      "group": "Back"
+    },
+    {
+      "id": 6,
+      "exercise": "Dragon Hold",
+      "reps": "10",
+      "sets": "4",
+      "weight": "0",
+      "group": "Core"
+    },
+    {
+      "id": 8,
+      "exercise": "Planke",
+      "reps": "12",
+      "sets": "1",
+      "weight": "20",
+      "group": "Core"
+    },
+    {
+      "id": 10,
+      "exercise": "hjej",
+      "reps": "13",
+      "sets": "12",
+      "weight": "12",
+      "group": "Chest"
+    }
+  ]
+}
